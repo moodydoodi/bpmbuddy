@@ -1,8 +1,12 @@
 # BPM-Buddy: Adaptive AI Music Synchronization
 
-![System Structure](docs/system_architecture.png)
-
 BPM-Buddy is an intelligent, real-time DJ system for runners. It utilizes smartphone accelerometer data, Deep Learning (1D-CNN), and Reinforcement Learning (DQN) to dynamically adapt music selection and tempo to the user's running cadence and physical intensity.
+
+<p align="center">
+<img src="docs/dashboardsnippet.png" width="500" alt="BPM-Buddy Dashboard Preview"> 
+  
+  <i>Real-time monitoring of cadence, energy, and music synchronization.</i>
+</p>
 
 This project was developed as part of the course **"Advances in Artificial Intelligence"** at **Hochschule Düsseldorf (HSD) - Centre for Digitalisation and Digitality (ZDD)**.
 
@@ -22,6 +26,9 @@ Traditional running applications rely on static BPM playlists that ignore the ru
 It senses the user's motion, perceives the activity type and energy, decides on the optimal audio manipulation strategy to maintain "flow", and actuates the music via a custom audio engine.
 
 ## Core Architecture & AI Pipeline
+
+<p align="center">
+<img src="docs/system_architecture.png" width="500" alt="BPM-Buddy Dashboard Preview">
 
 The system is built upon four robust pillars:
 
