@@ -1,0 +1,30 @@
+# Python / Environment
+pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# App Specific
+outputs/
+
+# Large Audio & Data Files
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+
+# Keep cache folders but ignore their contents
+data/cache_audio/*
+!data/cache_audio/.gitkeep
+
+data/cache_stretch/*
+!data/cache_stretch/.gitkeep
