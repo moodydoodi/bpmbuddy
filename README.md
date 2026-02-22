@@ -133,13 +133,14 @@ bpm-buddy/
 │   └── streams.py              # Phyphox REST client & Simulation parser
 ├── scripts/                    # Offline preparation tools
 │   ├── generate_demo.py        # Synthesizes realistic sensor data
+│   ├── library_processor.py    # Analyzes MP3s to create the library JSON 
 │   └── vad_precompute.py       # Scans library for vocal safe zones
 ├── models/                     # AI Weights
 │   ├── activity_cnn.pth
 │   ├── rl_agent_dqn.pth
 │   └── silero_vad.jit          # Compiled VAD model
 ├── data/                       # Local data (Ignored in Git)
-│   ├── library/                # Processed JSON databases
+│   ├── library_full.json       # Processed JSON database
 │   └── cache_audio/            # Local MP3 files
 ├── main.py                     # Backend entry point
 ├── dashboard.py                # Streamlit frontend entry point
