@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+numpy
+pandas
+scipy
+librosa
+soundfile
+pyrubberband
+pygame
+streamlit
+altair
+requests
+tqdm
+pytest
