@@ -57,8 +57,8 @@ The system is built upon four robust pillars:
 ### 2. Clone & Install
 
 ```bash
-git clone https://github.com/moodydoodi/bpm-buddy.git
-cd bpm-buddy
+git clone https://github.com/moodydoodi/bpmbuddy.git
+cd bpmbuddy
 pip install -r requirements.txt
 ```
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 By default, the repository does not contain any .mp3 files due to copyright reasons. To run the system with audio:
 
-    Place your own .mp3 or .wav files into the data/cache_audio/ directory.
+Place your own .mp3 or .wav files into the data/cache_audio/ directory.
 
     Run python scripts/library_processor.py to analyze your tracks (extracts BPM, Key, Energy).
 
